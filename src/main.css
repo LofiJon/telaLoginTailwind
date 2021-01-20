@@ -1,0 +1,18 @@
+@tailwind base;
+
+.btn{
+    @apply outline-none py-2 px-4 text-white font-semibold rounded-md mt-3;
+}
+
+
+.btn-amarelo-escuro:hover{
+    @apply bg-yellow-600;
+}
+
+.btn-amarelo-escuro{
+    @apply  bg-yellow-800;
+}
+@tailwind components;
+@tailwind utilities;
+
+
